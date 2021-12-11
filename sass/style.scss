@@ -240,7 +240,7 @@ li{
     }
 }
 
-@media (min-width: $desktop){
+@media (min-width: $tablet){
     .header{
         .header-container{
             .logo{
@@ -291,7 +291,6 @@ li{
             justify-content: center;
             width: 50%;
             text-align: left;
-            padding: 0 5rem;
             p{
                 margin: 0;
             }

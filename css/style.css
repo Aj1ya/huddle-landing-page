@@ -280,7 +280,7 @@ li {
   margin: 0 .5rem;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1080px) {
   .header .header-container .logo {
     width: 20%;
   }
@@ -346,7 +346,6 @@ li {
             justify-content: center;
     width: 50%;
     text-align: left;
-    padding: 0 5rem;
   }
   .tile .tile-content p {
     margin: 0;
