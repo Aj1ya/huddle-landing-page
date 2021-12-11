@@ -2,6 +2,8 @@
 
 ![Design preview for the Huddle landing page with alternating feature blocks coding challenge](./design/desktop-preview.jpg)
 
+**Visit:** https://huddle-landing-page-eight-lilac.vercel.app/
+
 ## Welcome! 👋
 
 Thanks for checking out this front-end coding challenge.
