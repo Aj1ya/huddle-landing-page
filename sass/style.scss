@@ -62,8 +62,8 @@ li{
     .header-container{
         display: flex;
         justify-content: space-between;
-        align-items: center;        
-        padding: 2rem 1.5rem;
+        align-items: center;  
+        padding: 2rem 0; 
         .logo{
             width: 40%;
             img{
@@ -229,9 +229,129 @@ li{
     .social-media{
        padding: 2rem 0;
        display: flex;
-       justify-content: center;
+       text-align: center;
+       flex-direction: column;
+       .copyright{
+           margin: 2rem 0;
+       }
        img{
            margin: 0 .5rem;
        }
     }
+}
+
+@media (min-width: $desktop){
+    .header{
+        .header-container{
+            .logo{
+                width: 20%;
+            }
+            .header-btn{
+                padding: .6rem 3rem;
+            }
+        }
+    }
+
+
+    .header-container-content{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: space-between;
+        .header-contant{
+            width: 45%;
+            display: flex;
+            text-align: left;
+            align-items: center;
+            .wrapper{
+                width: 100%;
+            }
+        }
+        .header-img{
+            width: 45%;
+            .wrapper{
+                width: 100%;
+            }
+        }
+
+    }
+
+    .tile{
+        display: flex;
+        justify-content: space-between;
+        padding: 5rem 0;
+        &:nth-child(odd){
+            flex-direction: row-reverse;
+            .tile-content{
+                margin: 0 0 0 5rem;
+            }
+        }
+        .tile-content{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            width: 50%;
+            text-align: left;
+            padding: 0 5rem;
+            p{
+                margin: 0;
+            }
+        }
+        .tile-img{
+            width: 40%;
+        }
+    }
+
+    .community{
+        .community-container{
+            display: flex;
+            flex-direction: column;
+            width: 60%;
+            top: 8rem;
+            .community-btn{
+                width: 20rem;
+                margin: 2rem auto;
+                font-size: .9rem;
+                padding: 1.2rem 5rem;
+            }
+        }
+    }
+
+    .footer{
+        padding: 8rem 0 2rem;
+        .footer-container{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            .company-info{
+                width: 30%;
+            }
+            .footer-links{
+                width: 30%;
+                display: flex;
+                margin-top: 3.5rem;
+                justify-content: space-between;
+                .footer-links-left, .footer-links-right{
+                    width: 45%;
+                }
+                ul{                    
+                    li{
+                        
+                    font-size: 1.5rem;
+                    }
+                }
+
+            }
+            .social-media{
+                width: 30%;
+                margin-top: 3.5rem;
+                display: flex;
+                justify-content: space-between;
+                padding: 0;
+                .copyright{
+                    margin: 0;
+                }
+            }
+        }
+    }
+    
 }
